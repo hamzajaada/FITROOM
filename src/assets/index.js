@@ -24,8 +24,8 @@ import people01 from "./people01.png";
 import people02 from "./people02.png";
 import people03 from "./people03.png";
 import bg_hero from './bg-hero.jpg'
-import f1 from './f1.webp'
-import f2 from './f2.webp'
+import f1 from './f1.jpg'
+import f2 from './f2.jpg'
 import e1 from './e1.webp'
 import webdev from './web-dev.jpg' 
 import design from './design.jpg'

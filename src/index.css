@@ -31,12 +31,12 @@
     transform: translateX(0);
   }
 }
-.bg-move {
+/* .bg-movee {
   transition: transform 0.6s;
   transform-style: preserve-3d;
   perspective: 1000px;
   position: relative;
-}
+} */
 .bg-grad{
   background: linear-gradient(90deg, rgba(107, 73, 120, 1) 0%, rgba(124, 45, 145, 1) 6%, rgba(65, 16, 120, 1) 79%);
 }
@@ -45,9 +45,9 @@
 background: linear-gradient(101deg, rgba(0, 0, 0, 0.94) 0%, rgba(0, 0, 0, 1) 28%, rgba(164, 1, 241, 1) 100%);
 }
 
-.bg-move:hover {
+/* .bg-move:hover {
   transform: rotateY(180deg);
-}
+} */
 
 .bg-move .content {
   backface-visibility: hidden;

@@ -28,7 +28,7 @@ const Navbar = () => {
         ))}
         </div>
        
-        <button className="py-3 px-5 ml-10 font-poppins  cursor-pointer text-[16px] hidden sm:block  text-black font-semibold   bg-move rounded-md">Devis</button>
+        <button className="py-3 px-5 ml-10 font-poppins  cursor-pointer text-[16px] hidden sm:block  text-black font-semibold   bg-move rounded-md">S'inscrire</button>
         <div className="grid grid-cols-3  gap-4 ml-5  ">
           <img  className="hidden sm:block" src={instagram}/>
         <img className="hidden sm:block" src={linkedin}/>

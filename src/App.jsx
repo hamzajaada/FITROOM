@@ -1,24 +1,21 @@
 import styles from "./style.js";
 import Navbar from "./components/Navbar.jsx";
-import Billing from "./components/Billing.jsx";
-import Button from "./components/Button.jsx";
-import CardDeal from "./components/CardDeal.jsx";
-import Clients from "./components/Clients.jsx";
-import CTA from "./components/CTA.jsx";
-import FeedbackCard from "./components/FeedbackCard.jsx";
+import F6 from "./components/F6.jsx";
+import F4 from "./components/F4.jsx";
+import F8 from "./components/F8.jsx";
+import { F1 } from "./components/F1.jsx";
+import F3 from "./components/F3.jsx";
 import Footer from "./components/Footer.jsx";
-import GetStarted from "./components/GetStarted.jsx";
+import F5 from "./components/F5.jsx";
 import Hero from "./components/Hero.jsx";
-import Business from "./components/Business.jsx"
-
-import Stats from "./components/Stats.jsx";
-import Testimonials from "./components/Testimonials.jsx";
-import { NosProjet } from "./components/NosProjet.jsx";
-import NosClient from "./components/NosClient.jsx";
-import Prochaine from "./components/Prochaine.jsx";
+import F7 from "./components/F7.jsx"
+import F2 from "./components/F2.jsx";
+import  F9  from "./components/F9.jsx";
+import F10 from "./components/F10.jsx";
+import F12 from "./components/F12.jsx";
 import Copyright from "./components/Copyright.jsx";
-import Marche from "./components/Marche.jsx";
-import Actualite from "./components/Actualite.jsx";
+import F11 from "./components/F11.jsx";
+import F13 from "./components/F13.jsx";
 
 const App = () => {
     return (
@@ -36,80 +33,80 @@ const App = () => {
           </div>
           <div className={`${styles.paddingX} ${styles.flexStart} bg-primary`}>
             <div className={`${styles.boxWidth}`}>
-                <CTA/>
+                <F1/>
             </div>
           </div>
            
           <div className={`${styles.paddingX} ${styles.flexStart} bg-primary`}>
             <div className={`${styles.boxWidth}`}>
-                <Stats/>
+                <F2/>
             </div>
           </div>
 
           <div className={`${styles.paddingX} ${styles.flexStart} bg-primary`}>
             <div className={`${styles.boxWidth}`}>
-                <FeedbackCard/>
+                <F3/>
             </div>
 
           </div>
          
           <div className={`${styles.paddingX} ${styles.flexStart} bg-primary`}>
             <div className={`${styles.boxWidth}`}>
-                <CardDeal/>
+                <F4/>
             </div>
             
           </div>
         
           <div className={`${styles.paddingX} ${styles.flexStart} bg-primary`}>
             <div className={`${styles.boxWidth}`}>
-                <GetStarted/>
+                <F5/>
             </div>
             
           </div>
           
           <div className={`${styles.paddingX} ${styles.flexStart} bg-primary`}>
             <div className={`${styles.boxWidth}`}>
-                <Billing/>
+                <F6/>
             </div>
           </div>
            
           <div className={`${styles.paddingX} ${styles.flexStart} bg-primary`}>
             <div className={`${styles.boxWidth}`}>
-                <Business/>
+                <F7/>
             </div>
           </div> 
            
           <div className={`${styles.paddingX} ${styles.flexStart} bg-primary`}>
             <div className={`${styles.boxWidth}`}>
-                <Clients/>
+                <F8/>
             </div>
           </div>
         
           <div className={`${styles.paddingX} ${styles.flexStart} bg-primary`}>
             <div className={`${styles.boxWidth}`}>
-                <NosProjet/>
+                <F9/>
             </div>
           </div>
 
             
           <div className={`${styles.paddingX} ${styles.flexStart} bg-primary`}>
             <div className={`${styles.boxWidth}`}>
-                <NosClient/>
+                <F10/>
             </div>
           </div>
           <div className={`${styles.paddingX} ${styles.flexStart} bg-primary`}>
             <div className={`${styles.boxWidth}`}>
-                <Marche/>
+                <F11/>
             </div>
           </div>
           <div className={`${styles.paddingX} ${styles.flexStart} bg-primary`}>
             <div className={`${styles.boxWidth}`}>
-                <Prochaine/>
+                <F12/>
             </div>
           </div>
           <div className={`${styles.paddingX} ${styles.flexStart} bg-primary`}>
             <div className={`${styles.boxWidth}`}>
-                <Actualite/>
+                <F13/>
             </div>
           </div>
           
